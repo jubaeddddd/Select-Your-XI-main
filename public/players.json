@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1,
+    "name": "Viral Kohli",
+    "country": "India",
+    "role": "All-Rounder",
+    "battingStyle": "Left-Hand-Bat",
+    "price": "$1500000",
+    "image": "https://i.ibb.co/7tngz23J/virat.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Babar Azam",
+    "country": "Pakistan",
+    "role": "Batsman",
+    "battingStyle": "Right-Hand-Bat",
+    "price": "$1400000",
+    "image": "https://i.ibb.co/ZpvQGjK7/babar.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Joe Root",
+    "country": "England",
+    "role": "Batsman",
+    "battingStyle": "Right-Hand-Bat",
+    "price": "$1300000",
+    "image": "https://i.ibb.co/9mQgdCXv/joe-root.jpg"
+  },
+  {
+    "id": 4,
+    "name": "David Warner",
+    "country": "Australia",
+    "role": "Batsman",
+    "battingStyle": "Left-Hand-Bat",
+    "price": "$1250000",
+    "image": "https://i.ibb.co/NnyTGP0q/warner.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Kane Williamson",
+    "country": "New Zealand",
+    "role": "Batsman",
+    "battingStyle": "Right-Hand-Bat",
+    "price": "$1350000",
+    "image": "https://i.ibb.co/HTrNHsd1/williamson.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Shakib Al Hasan",
+    "country": "Bangladesh",
+    "role": "All-Rounder",
+    "battingStyle": "Left-Hand-Bat",
+    "price": "$1200000",
+    "image": "https://i.ibb.co/ksM6Bb8K/shakib.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Ben Stokes",
+    "country": "England",
+    "role": "All-Rounder",
+    "battingStyle": "Left-Hand-Bat",
+    "price": "$1450000",
+    "image": "https://i.ibb.co/ZRFpZ75q/ben-stokes.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Rashid Khan",
+    "country": "Afghanistan",
+    "role": "Bowler",
+    "battingStyle": "Right-Hand-Bat",
+    "price": "$1100000",
+    "image": "https://i.ibb.co/6J4r4bNT/rashid-khan.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Steve Smith",
+    "country": "Australia",
+    "role": "Batsman",
+    "battingStyle": "Right-Hand-Bat",
+    "price": "$1250000",
+    "image": "https://i.ibb.co/pvsHmL0D/steve-smith.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Hardik Pandya",
+    "country": "India",
+    "role": "All-Rounder",
+    "battingStyle": "Right-Hand-Bat",
+    "price": "$1180000",
+    "image": "https://i.ibb.co/bRW6WXQm/pandya.jpg"
+  },
+  {
+    "id": 11,
+    "name": "Quinton de Kock",
+    "country": "South Africa",
+    "role": "Wicket-Keeper",
+    "battingStyle": "Left-Hand-Bat",
+    "price": "$1150000",
+    "image": "https://i.ibb.co/C5GNLfT3/de-kock.png"
+  },
+  {
+    "id": 12,
+    "name": "Trent Boult",
+    "country": "New Zealand",
+    "role": "Bowler",
+    "battingStyle": "Right-Hand-Bat",
+    "price": "$1080000",
+    "image": "https://i.ibb.co/JWXYvWkp/trent-boult.jpg"
+  }
+]
