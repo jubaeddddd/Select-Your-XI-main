@@ -14,7 +14,7 @@ const Players = ({ players }) => {
                 </div>
             </div>
             {/* lower part  */}
-            <div className="flex justify-center">
+            <div className="flex justify-center pb-80">
                 <div className="grid grid-cols-3 my-10 gap-28">
                     {
                         players.map( player => <Player player={player}></Player>)

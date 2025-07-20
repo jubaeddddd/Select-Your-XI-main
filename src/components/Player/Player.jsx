@@ -3,7 +3,7 @@ const Player = ({player}) => {
     return (
         <div>
             <div class="card shadow-sm">
-                <figure className="h-[400px] w-[370px]">
+                <figure className="h-[400px] w-[350px]">
                     <img
                         className="h-full w-full object-cover rounded-4xl"
                         src={image}
@@ -19,13 +19,13 @@ const Player = ({player}) => {
                         <p className="flex gap-2 ml-2 items-center text-gray-400"><img className="h-[25px]" src="https://img.icons8.com/?size=50&id=2755&format=png" alt="" /> <span className="font-semibold text-xl">{country}</span></p>
                         <h2 className="text-2xl p-2 rounded-xl text-gray-500 bg-gray-200">{role}</h2>
                     </div>
-                    <div><p className="text-3xl font-bold">Rating</p></div>
+                    <div><p className="text-2xl font-bold">Rating</p></div>
                     <div className="flex justify-between">
-                        <p className="text-2xl font-bold">{battingStyle}</p>
-                        <p className="text-2xl text-gray-300">{battingStyle}</p>
+                        <p className="text-xl font-bold">{battingStyle}</p>
+                        <p className="text-xl text-gray-300">{battingStyle}</p>
                     </div>
                     <div className="flex justify-between items-center">
-                        <p className="text-2xl font-bold">Price: {price}</p>
+                        <p className="text-xl font-bold">Price: {price}</p>
                         <button className="btn">Choose Player</button>
                     </div>
                 </div>

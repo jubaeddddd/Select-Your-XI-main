@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react'
 import './App.css'
 import Header from './components/Header/Header'
 import Players from './components/Players/Players'
+import Footer from './components/Footer/Footer'
 
 function App() {
 
@@ -23,6 +24,7 @@ function App() {
       <div className='mx-auto container'>
         <Header coins={coins} claimCoins={claimCoins}></Header>
         <Players players={players}></Players>
+        <Footer></Footer>
       </div>
     </>
   )
