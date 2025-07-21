@@ -12,6 +12,7 @@ function App() {
   const [players, setPlayers] = useState([])
   const [toggle, setToggle] = useState(true)
   const [selected, setSelected] = useState([])
+  const [selectedOnce,setSelectedOnce]=useState([])
 
   const claimCoins = () => {
     setCoins(coins + 700000)
@@ -31,12 +32,15 @@ function App() {
     if (coins < player.price) {
       alert('you cant buy him')
     }
+    else if(coins>player.price && selectedOnce.includes(player.id)){
+      alert('you already signed the player')
+    }
     else {
       const newSelected = [...selected, player]
       setSelected(newSelected)
       setCoins(coins - player.price)
       alert('you bought the player')
-      console.log(player)
+      setSelectedOnce([...selectedOnce,player.id])
     }
   }
 
@@ -44,8 +48,10 @@ function App() {
     const newSelectedAfterRemoving = selected.filter(select => select.id != player.id)
     setSelected(newSelectedAfterRemoving)
     setCoins(coins+player.price)
-  }
 
+    const removingFromSelectedOnce=selectedOnce.filter(sel=> sel!= player.id)
+    setSelectedOnce(removingFromSelectedOnce)
+  }
 
   return (
     <>
