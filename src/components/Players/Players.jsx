@@ -1,16 +1,13 @@
 import Player from "../Player/Player";
+import Toggle from "../Toggle/Toggle";
 
-const Players = ({ players }) => {
+const Players = ({ players}) => {
     return (
         <div>
             {/* uppper part  */}
             <div className="mt-8 flex justify-between">
                 <div>
                     <h1 className="text-3xl font-bold">Available Players</h1>
-                </div>
-                <div class="join grid grid-cols-2">
-                    <button class="join-item btn btn-outline">Previous page</button>
-                    <button class="join-item btn btn-outline">Next</button>
                 </div>
             </div>
             {/* lower part  */}
