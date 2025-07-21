@@ -1,7 +1,7 @@
 import Player from "../Player/Player";
 import Toggle from "../Toggle/Toggle";
 
-const Players = ({ players}) => {
+const Players = ({ players,handleSelected}) => {
     return (
         <div>
             {/* uppper part  */}
@@ -14,7 +14,7 @@ const Players = ({ players}) => {
             <div className="flex justify-center pb-80">
                 <div className="grid grid-cols-3 my-10 gap-28">
                     {
-                        players.map( player => <Player player={player}></Player>)
+                        players.map( player => <Player handleSelected={handleSelected} player={player}></Player>)
                     }
                 </div>
             </div>

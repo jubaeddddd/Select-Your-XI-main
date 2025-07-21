@@ -1,7 +1,7 @@
 const Footer = () => {
     return (
         <div>
-            <div className="mt-40">
+            <div className="mt-20">
                 <div className="relative">
                     {/* upper footer  */}
                     <div className="absolute bottom-60 left-64">

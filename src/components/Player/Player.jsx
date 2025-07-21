@@ -1,4 +1,4 @@
-const Player = ({player}) => {
+const Player = ({player,handleSelected}) => {
     const {name,country,role,battingStyle,price,image}=player
     return (
         <div>
@@ -26,7 +26,7 @@ const Player = ({player}) => {
                     </div>
                     <div className="flex justify-between items-center">
                         <p className="text-xl font-bold">Price: {price}</p>
-                        <button className="btn">Choose Player</button>
+                        <button onClick={()=>{handleSelected(player)}} className="btn">Choose Player</button>
                     </div>
                 </div>
             </div>

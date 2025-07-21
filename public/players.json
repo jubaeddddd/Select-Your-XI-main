@@ -1,11 +1,11 @@
 [
   {
     "id": 1,
-    "name": "Viral Kohli",
+    "name": "Virat Kohli",
     "country": "India",
     "role": "All-Rounder",
     "battingStyle": "Left-Hand-Bat",
-    "price": "$1500000",
+    "price": 1500000,
     "image": "https://i.ibb.co/7tngz23J/virat.jpg"
   },
   {
@@ -14,7 +14,7 @@
     "country": "Pakistan",
     "role": "Batsman",
     "battingStyle": "Right-Hand-Bat",
-    "price": "$1400000",
+    "price": 1400000,
     "image": "https://i.ibb.co/ZpvQGjK7/babar.jpg"
   },
   {
@@ -23,7 +23,7 @@
     "country": "England",
     "role": "Batsman",
     "battingStyle": "Right-Hand-Bat",
-    "price": "$1300000",
+    "price": 1300000,
     "image": "https://i.ibb.co/9mQgdCXv/joe-root.jpg"
   },
   {
@@ -32,7 +32,7 @@
     "country": "Australia",
     "role": "Batsman",
     "battingStyle": "Left-Hand-Bat",
-    "price": "$1250000",
+    "price": 1250000,
     "image": "https://i.ibb.co/NnyTGP0q/warner.jpg"
   },
   {
@@ -41,7 +41,7 @@
     "country": "New Zealand",
     "role": "Batsman",
     "battingStyle": "Right-Hand-Bat",
-    "price": "$1350000",
+    "price": 1350000,
     "image": "https://i.ibb.co/HTrNHsd1/williamson.jpg"
   },
   {
@@ -50,7 +50,7 @@
     "country": "Bangladesh",
     "role": "All-Rounder",
     "battingStyle": "Left-Hand-Bat",
-    "price": "$1200000",
+    "price": 1200000,
     "image": "https://i.ibb.co/ksM6Bb8K/shakib.jpg"
   },
   {
@@ -59,7 +59,7 @@
     "country": "England",
     "role": "All-Rounder",
     "battingStyle": "Left-Hand-Bat",
-    "price": "$1450000",
+    "price": 1450000,
     "image": "https://i.ibb.co/ZRFpZ75q/ben-stokes.jpg"
   },
   {
@@ -68,7 +68,7 @@
     "country": "Afghanistan",
     "role": "Bowler",
     "battingStyle": "Right-Hand-Bat",
-    "price": "$1100000",
+    "price": 1100000,
     "image": "https://i.ibb.co/6J4r4bNT/rashid-khan.jpg"
   },
   {
@@ -77,7 +77,7 @@
     "country": "Australia",
     "role": "Batsman",
     "battingStyle": "Right-Hand-Bat",
-    "price": "$1250000",
+    "price": 1250000,
     "image": "https://i.ibb.co/pvsHmL0D/steve-smith.jpg"
   },
   {
@@ -86,7 +86,7 @@
     "country": "India",
     "role": "All-Rounder",
     "battingStyle": "Right-Hand-Bat",
-    "price": "$1180000",
+    "price": 1180000,
     "image": "https://i.ibb.co/bRW6WXQm/pandya.jpg"
   },
   {
@@ -95,7 +95,7 @@
     "country": "South Africa",
     "role": "Wicket-Keeper",
     "battingStyle": "Left-Hand-Bat",
-    "price": "$1150000",
+    "price": 1150000,
     "image": "https://i.ibb.co/C5GNLfT3/de-kock.png"
   },
   {
@@ -104,7 +104,7 @@
     "country": "New Zealand",
     "role": "Bowler",
     "battingStyle": "Right-Hand-Bat",
-    "price": "$1080000",
+    "price": 1080000,
     "image": "https://i.ibb.co/JWXYvWkp/trent-boult.jpg"
   }
 ]
