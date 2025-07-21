@@ -18,7 +18,7 @@ const Banner = ({ claimCoins }) => {
                 </div>
                 <h1 className='text-7xl font-bold text-white'>Aseemble your Ultimate Dream 11 Cricket Team</h1>
                 <h2 className='text-2xl text-gray-500'>Beyond Boundaries Beyond Limits</h2>
-                <button onClick={() => { claimCoins(), notify() }} className='bg-yellow-400 text-black text-3xl'>Claim Free Credit</button>
+                <button onClick={() => { claimCoins(), notify() }} className='btn bg-amber-400 text-black text-3xl'>Claim Free Credit</button>
                 <ToastContainer
                     position="top-center"
                     autoClose={2000}
